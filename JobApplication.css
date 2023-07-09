@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: gray;
+}
+#Formstyling
+{
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+}
+.Containerstyling
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.Formstyling
+{
+    display: flex;
+    flex-direction: column;
+}
+label
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+input, select, textarea
+{
+    padding: 6px 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+}
+input:focus
+{
+    background-color: lavender;
+}
+textarea:focus
+{
+    background-color: lavender;
+}
+.Buttonstyling
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button
+{
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
+.textareastyling
+{
+    grid-column: 1 / span 2;
+}
+.textareastyling textarea
+{
+    width: 100%;
+}
+@media (max-width:460px)
+{
+    .textareastyling
+    {
+        grid-column: 1 / span 1;
+    }
+}

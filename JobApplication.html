@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/JobApplication.css" type="text/css">
+    <title>Job Application</title>
+</head>
+<body>
+
+    <form id="Formstyling" method="get">
+        <div class="Formstyling">
+            <h1>Job Application</h1> 
+        </div>
+       <div class="Containerstyling">
+        <div class="Formstyling">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter First Name..." required>
+        </div>
+        <div class="Formstyling">
+            <label>Last Name</label>
+            <input type="text" placeholder="Enter Last Name..." required>
+        </div>
+        <div class="Formstyling">
+            <label>Email</label>
+            <input type="email" placeholder="Enter Your Mail..." required>
+        </div>
+        <div class="Formstyling">
+            <label>Job Role</label>
+            <select name="Job Role">
+                <option>Select Job Role</option>
+                <option value="Frontend">Frontend Developer</option>
+                <option value="Backend">Backend Developer</option>
+                <option value="Fullstack">Full Stack Developer</option>
+                <option value="Java">Java Developer</option>
+            </select>
+        </div>
+        <div class="textareastyling">
+            <label>Address</label>
+            <textarea name="Address" cols="50" rows="4" placeholder="Enter Your Address..."></textarea>
+        </div>
+        <div class="Formstyling">
+            <label>City</label>
+            <input type="text" placeholder="Enter City...">
+        </div>
+        <div class="Formstyling">
+            <label>Pincode</label>
+            <input type="number" placeholder="Enter Pincode...">
+        </div>
+        <div class="Formstyling">
+            <label>Date</label>
+            <input type="date">
+        </div>
+        <div class="Formstyling">
+            <label>Upload Your CV</label>
+            <input type="file">
+        </div>
+       </div>
+       <div class="Buttonstyling">
+        <button type="submit">Apply Now</button>
+       </div>
+    </form>
+</body>
+</html>
